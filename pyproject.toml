@@ -1,0 +1,16 @@
+[project]
+name = "place-verity"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "jerry.liu",email = "jerry.liu@uancare.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.120.4",
+    "google-api-python-client>=2.186.0",
+    "openai>=2.6.1",
+    "pydantic-settings>=2.11.0",
+    "uvicorn>=0.38.0",
+]
+
