@@ -86,15 +86,6 @@ poetry run uvicorn veritas_app.main:app --reload
 - `POST /verify/manual/review-approve`: 核准並更新地點資料。
 - `POST /verify/auto/trigger`: 在背景觸發一次全域的自動化核實任務。
 
-## 測試
-
-本專案使用 `pytest` 進行單元測試，並透過 `respx` 套件來模擬 (mock) 對外部 API (Google, OpenAI) 的 HTTP 請求，使得測試無需真實的網路連線，且執行速度快。
-
-要執行所有測試，請運行：
-
-```bash
-poetry run pytest
-```
 
 ## 後續擴充方向
 
